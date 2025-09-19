@@ -92,7 +92,78 @@ public class patterns {
         // }
         
 
-        // Inverted Half Pyramid after 180 degree rotation
+        // Floyd's Triangle
+
+        // int n, number = 1;
+
+        // System.out.println("Enter the number of rows: ");
+        // n = sc.nextInt();
+
+        // for (int i=1; i<=n; i++) {
+        //     for (int j=1; j<=i; j++) {
+        //         System.out.print(number + " ");
+        //         number++;
+        //     }
+        //     System.out.println();
+        // }
+
+
+        // 0/1 Triangle
+
+        // int n;
+        // System.out.println("Enter the number of rows: ");
+        // n = sc.nextInt();
+
+        // for (int i=1; i<=n; i++) {
+        //     for (int j=1; j<=i; j++) {
+        //         if((i+j) %2 == 0) {
+        //             System.out.print("1 ");
+        //         } else {
+        //             System.out.print("0 ");
+        //         }
+        //     }
+        //     System.out.println();
+        // }
+
+
+        // Butterfly Pattern
+        // int n;
+        // System.out.println("Enter the number of rows: ");
+        // n = sc.nextInt();
+
+        // for (int i=1; i<=n; i++) {
+        //     for (int j=1; j<=i; j++) {
+        //         System.out.print("*");
+        //     }
+        //     for (int k=n; k>=i; k--) {
+        //         if(k<=i) {
+        //             for (int l=1; l<=i; l++) {
+        //                 System.out.print("*");
+        //             }
+        //         }
+        //         else System.out.print("  ");
+        //     }
+        //     System.out.println();
+        // }
+
+        // for (int i=1; i<=n; i++) {
+        //     for (int j=n; j>=i; j--) {
+        //         System.out.print("*");
+        //     }
+            
+        //     for (int k=n; k>=i; k--) {
+
+        //     }
+        //     System.out.println();
+        // }
+
+
+        // Solid Rhombus
+
+        int n;
+        System.out.println("Enter the number of rows: ");
+        n = sc.nextInt();
+
         
     }
 }
