@@ -153,6 +153,7 @@ public class patterns {
             
         //     for (int k=n; k>=i; k--) {
 
+        // It's incomplete code for this pattern. You can complete it as per your need.
         //     }
         //     System.out.println();
         // }
@@ -163,6 +164,16 @@ public class patterns {
         int n;
         System.out.println("Enter the number of rows: ");
         n = sc.nextInt();
+
+        for (int i=1; i<=n; i++) {
+            for (int j=n; j>=i; j--) {
+                System.out.print(" ");
+            }
+            for (int k=1; k<=n; k++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
 
         
     }
