@@ -39,7 +39,8 @@ public class Array {
     }
 
     static void CountNumberOfPairs(int arr[], int target) {
-        // METHOD TO FIND THE NUMBER OF PAIRS IN AN ARRAY WHOSE SUM IS EQUAL TO A GIVEN NUMBER
+        // METHOD TO FIND THE NUMBER OF PAIRS IN AN ARRAY WHOSE SUM IS EQUAL TO A GIVEN
+        // NUMBER
         int count = 0;
         for (int i = 0; i < arr.length; i++) {
             for (int j = i + 1; j < arr.length; j++) {
@@ -52,12 +53,13 @@ public class Array {
     }
 
     static void CountNumberOfTriplets(int arr[], int target) {
-        // METHOD TO FIND THE NUMBER OF TRIPLETS IN AN ARRAY WHOSE SUM IS EQUAL TO A GIVEN NUMBER
+        // METHOD TO FIND THE NUMBER OF TRIPLETS IN AN ARRAY WHOSE SUM IS EQUAL TO A
+        // GIVEN NUMBER
 
         int count = 0;
-        for (int i=0; i<arr.length; i++) {
-            for (int j=i+1; j<arr.length; j++) {
-                for (int k=j+1; k<arr.length; k++) {
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i + 1; j < arr.length; j++) {
+                for (int k = j + 1; k < arr.length; k++) {
                     if (arr[i] + arr[j] + arr[k] == target) {
                         count++;
                     }
@@ -79,13 +81,11 @@ public class Array {
         }
 
         for (int i = 0; i < arr.length; i++) {
-            if ( arr[i] > 0) {
+            if (arr[i] > 0) {
                 System.out.println("Unique Number is: " + arr[i]);
             }
         }
     }
-
-
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -109,7 +109,7 @@ public class Array {
         // CountNumberOfPairs(arr, target);
         // CountNumberOfTriplets(arr, target);
 
-        // int arr[] = {1, 2, 3, 4, 5, 6, 5, 4, 3, 2, 1}; 
+        // int arr[] = {1, 2, 3, 4, 5, 6, 5, 4, 3, 2, 1};
         // UniqueNumber(arr);
 
         
